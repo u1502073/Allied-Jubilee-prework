@@ -1,0 +1,47 @@
+
+.self {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-left: 1px solid rgba(143, 135, 135, 0.5);
+  border-right: 1px solid rgba(143, 135, 135, 0.5);
+  border-bottom: 1px solid rgba(143, 135, 135, 0.5);
+  color: rgba(0, 0, 0, 0.7);
+  .image {
+    width: 80px;
+    height: 80px;
+  }
+  .content {
+    padding-left:20px;
+    width: 100%;
+    .up {
+      padding-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      .status {
+        float: left;
+        color: rgba(0, 0, 0, 0.8);
+      }
+      .date {
+        float: right;
+      }
+    }
+  }
+}
+.green {
+  color: rgb(28, 168, 9) !important;
+}
+
+.arrowRight {
+  display: block;
+  margin: 30px auto;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid rgba(0, 0, 0, 0.7);
+  border-left: 2px solid rgba(0, 0, 0, 0.7);
+}
+.arrowRight {
+ transform: rotate(135deg);
+}
